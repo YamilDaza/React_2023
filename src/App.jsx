@@ -1,9 +1,10 @@
 import React from "react";
+import Twitter from './Projects/Twitter_card/Twitter'
 
 const App = () => {
 	return(
 		<>
-			<h1>Hello world</h1>
+			<Twitter/>
 		</>
 	)
 }
