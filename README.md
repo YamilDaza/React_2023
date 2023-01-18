@@ -24,3 +24,25 @@
      
 
    ### Componentes : Es crear una funcionalidad con atributos y contenidos, y poder reutilizarlo. Los componentes tienen que ser PascalCase, empezar con una mayuscula.
+
+
+   ### PROPS: La base para que un componente sea reutilizable son las propiedades, las PROPS.
+   - Cuando a una PROP no le asignamos un valor y queremos acceder, por defecto se asigna undefined
+   - Podemos pasar funciones como PROPS, pero debemos pasarlo sin los parentesis, y dentro del componente hijo invocarlo
+   - Las PROPS son inmutables, es decir, no podemos cambiar su valor 
+   - Todo lo que se envuelve en un elemento se llaman children - Hijos(El contenido). Podemos envolver un texto(string), o elemento jsx. El children usar como contenido envuelto y no como PROP.
+   - Valores por defecto de los parametros, es decir, asignarle un valor en las props.
+   - Podemos pasar las props en un objeto y no por separado. ejemplo:
+   const obj = {prop1 : contenido1, prop2: contenido2...}
+   <Componente obj={...obj}> . TENER CUIDADO, NO SIEMPRE ES RECOMENDADO
+
+
+
+   ### ESTADO - Hooks : Nos agrega utilidad para mejorar nuestra interfaz de usuario, son variables para poder darle vida a nuestro sitio.
+   - useState -> nos permite guardar una variable
+
+   *Programación Imperativo -> Es declara paso a paso OR instrucción a intrucción que debe realizar tal cosa*
+   *Programación Declarativo -> Es simplemente declara escribir que quiero y no como lo quiero.*
+
+
+

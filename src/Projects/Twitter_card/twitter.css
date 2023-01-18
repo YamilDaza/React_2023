@@ -1,0 +1,58 @@
+.card-twitter{
+   display: flex;
+   align-items: center;
+   color: #fff;
+   font-size: .8rem;
+   justify-content: space-between;
+}
+
+.card-twitter-header{
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+
+.card-twitter-header div{
+   display: flex;
+   flex-direction: column;
+}
+
+.card-twitter-header span{
+   opacity: .6;
+}
+
+.card-twitter-header-img{
+   width: 48px;
+   height: 48px;
+   background-color: aqua;
+   border-radius: 1000px;
+}
+
+.btn-following{
+   margin-left: 16px;
+   border: 0;
+   border-radius: 999px;
+   padding: 6px 16px;
+   font-weight: bold;
+   cursor: pointer;
+   border: 1px solid black;
+   transition: .5s ease background-color;
+}
+
+
+.btn-following:hover{
+   background-color: #09f;
+   color: #fff;
+}
+
+
+.btn-following.isFollowing{
+   border: 1px solid red;
+   background-color: rgb(30, 29, 29);
+   color: #fff;
+}
+
+.btn-following.isFollowing:hover{
+   background: rgb(216, 61, 61);
+   color: #fff;
+}
