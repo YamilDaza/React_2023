@@ -18,7 +18,7 @@ const Twitter = ({ userName = 'unknown', name, gretting }) => {
          <header className='card-twitter-header'>
             <img 
                className='card-twitter-header-img'
-               src={`https://unavatar.io/${userName}`} alt='Avatar'/>
+               src={`https://unavatar.io/${userName}`} alt={`Avatar-${name}`}/>
             <div>
                <strong>{name}</strong>
                <span>@{userName}</span>

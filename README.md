@@ -1,6 +1,7 @@
 # Curso de React 18 desde 0 - MiDudev
 
-## CLASE 1 === === === === === === === === === === === === === === === === === ===
+##  === === === === === === === === ===      CLASE 1     === === === === === === === === === 
+
    - ¿Qué es React? -> React es una biblioteca de JavaScript para construir interfaces de usuario. React es declarativo y basado en componentes.
    - React solo pueden renderizar un elemento, ¿Qué pasa si queremos renderizar mas de uno?, bueno podemos envolver los elementos a renderizar en uno solo, es decir, un div o fragment. 
       * Ejemplo 1 -> const caja = React.createElement("div",null,[Element1, Element2, Element3...])
@@ -43,6 +44,23 @@
 
    *Programación Imperativo -> Es declara paso a paso OR instrucción a intrucción que debe realizar tal cosa*
    *Programación Declarativo -> Es simplemente declara escribir que quiero y no como lo quiero.*
+
+
+
+
+
+## === === === === === === === === ===      CLASE 2     === === === === === === === === === 
+
+   - Temas de la clase -> 2 proyectos + Prueba Tecnica.
+
+
+
+
+
+
+
+
+
 
 
 
